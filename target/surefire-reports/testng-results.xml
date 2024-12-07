@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-17T12:54:10 IST" name="Docker Grid" finished-at="2020-06-17T12:54:44 IST" duration-ms="33710">
+  <suite started-at="2024-12-08T00:54:00 TRT" name="Docker Grid" finished-at="2024-12-08T00:54:04 TRT" duration-ms="4652">
     <groups>
     </groups>
-    <test started-at="2020-06-17T12:54:10 IST" name="Chrome" finished-at="2020-06-17T12:54:32 IST" duration-ms="21572">
+    <test started-at="2024-12-08T00:54:00 TRT" name="Chrome" finished-at="2024-12-08T00:54:03 TRT" duration-ms="3049">
       <class name="seldocker.GridTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:seldocker.GridTest@327514f]" started-at="2020-06-17T12:54:10 IST" name="setup" finished-at="2020-06-17T12:54:31 IST" duration-ms="21109" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:seldocker.GridTest@19dc67c2]" started-at="2024-12-08T00:54:00 TRT" name="setup" finished-at="2024-12-08T00:54:03 TRT" duration-ms="2956" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,23 +18,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getTitle()[pri:0, instance:seldocker.GridTest@327514f]" started-at="2020-06-17T12:54:31 IST" name="getTitle" finished-at="2020-06-17T12:54:31 IST" duration-ms="123" status="PASS">
+        <test-method signature="getTitle()[pri:0, instance:seldocker.GridTest@19dc67c2]" started-at="2024-12-08T00:54:03 TRT" name="getTitle" finished-at="2024-12-08T00:54:03 TRT" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:seldocker.GridTest@327514f]" started-at="2020-06-17T12:54:31 IST" name="tearDown" finished-at="2020-06-17T12:54:32 IST" duration-ms="266" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seldocker.GridTest@19dc67c2]" started-at="2024-12-08T00:54:03 TRT" name="tearDown" finished-at="2024-12-08T00:54:03 TRT" duration-ms="70" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- seldocker.GridTest -->
     </test> <!-- Chrome -->
-    <test started-at="2020-06-17T12:54:10 IST" name="Firefox" finished-at="2020-06-17T12:54:44 IST" duration-ms="33710">
+    <test started-at="2024-12-08T00:54:00 TRT" name="Firefox" finished-at="2024-12-08T00:54:04 TRT" duration-ms="4652">
       <class name="seldocker.GridTest">
-        <test-method is-config="true" signature="startContainer()[pri:0, instance:seldocker.GridTest@7eac9008]" started-at="2020-06-17T12:53:39 IST" name="startContainer" finished-at="2020-06-17T12:54:10 IST" duration-ms="30759" status="PASS">
+        <test-method is-config="true" signature="startContainer()[pri:0, instance:seldocker.GridTest@64d2d351]" started-at="2024-12-08T00:53:52 TRT" name="startContainer" finished-at="2024-12-08T00:54:00 TRT" duration-ms="8302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startContainer -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:seldocker.GridTest@7eac9008]" started-at="2020-06-17T12:54:10 IST" name="setup" finished-at="2020-06-17T12:54:41 IST" duration-ms="30443" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:seldocker.GridTest@64d2d351]" started-at="2024-12-08T00:54:00 TRT" name="setup" finished-at="2024-12-08T00:54:04 TRT" duration-ms="4276" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -45,15 +45,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getTitle()[pri:0, instance:seldocker.GridTest@7eac9008]" started-at="2020-06-17T12:54:41 IST" name="getTitle" finished-at="2020-06-17T12:54:41 IST" duration-ms="81" status="PASS">
+        <test-method signature="getTitle()[pri:0, instance:seldocker.GridTest@64d2d351]" started-at="2024-12-08T00:54:04 TRT" name="getTitle" finished-at="2024-12-08T00:54:04 TRT" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:seldocker.GridTest@7eac9008]" started-at="2020-06-17T12:54:41 IST" name="tearDown" finished-at="2020-06-17T12:54:44 IST" duration-ms="3183" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seldocker.GridTest@64d2d351]" started-at="2024-12-08T00:54:04 TRT" name="tearDown" finished-at="2024-12-08T00:54:04 TRT" duration-ms="368" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="stopContainer()[pri:0, instance:seldocker.GridTest@7eac9008]" started-at="2020-06-17T12:54:44 IST" name="stopContainer" finished-at="2020-06-17T12:54:54 IST" duration-ms="10268" status="PASS">
+        <test-method is-config="true" signature="stopContainer()[pri:0, instance:seldocker.GridTest@64d2d351]" started-at="2024-12-08T00:54:04 TRT" name="stopContainer" finished-at="2024-12-08T00:54:10 TRT" duration-ms="5449" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopContainer -->

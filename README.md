@@ -1,4 +1,5 @@
-# SeleniumWebDriverDocker
-This Repository contains selenium webdriver with docker code. You need to download docker and run it. After that Clone this framework then run the GridTest.java file through TestNG.
+docker run -d -p 4444:4444 --shm-size=2g selenium/standalone-chrome:3.141.59
 
-You can watch different docker videos in my youtube channel on https://www.youtube.com/playlist?list=PLXbcghgSZDrrg7zAb2Pf5VA1m5xUmwCfp
+
+docker run -p 8080:8080 -p 50000:50000 jenkins/jenkins:jdk17
+66bff2a196804a6aa887cf55efcc67e1

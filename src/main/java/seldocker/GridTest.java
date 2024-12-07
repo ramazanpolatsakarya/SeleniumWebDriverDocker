@@ -34,7 +34,7 @@ public class GridTest {
 	public void setup(@Optional("firefox")String browser) throws MalformedURLException
 	{
 		DesiredCapabilities cap = new DesiredCapabilities();
-		URL url = new URL("http://192.168.99.100:4444/wd/hub");
+		URL url = new URL("http://localhost:4444/wd/hub");
 		if(browser.equalsIgnoreCase("chrome"))
 		{
 			cap.setBrowserName("chrome");
@@ -47,7 +47,7 @@ public class GridTest {
 			driver = new RemoteWebDriver(url, cap);
 			driver.get("https://www.facebook.com");
 		}
-		System.out.println("=> Öpening in the "+browser);
+		System.out.println("=> Browser opening in the "+browser);
 	}
 
 	@Test

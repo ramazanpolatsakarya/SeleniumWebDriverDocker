@@ -14,10 +14,10 @@ public class ChromeTest {
 	
 	public static void main(String[] args) throws MalformedURLException {
 		DesiredCapabilities cap = new DesiredCapabilities().chrome();
-		URL url = new URL("http://192.168.99.100:4444/wd/hub");
+		URL url = new URL("http://localhost:4444/wd/hub");
 		WebDriver driver = new RemoteWebDriver(url,cap);
-		driver.get("https://facebook.com");
-		System.out.println(driver.getTitle());
+		driver.get("https://google.com");
+		System.out.println("=> "+driver.getTitle());
 		driver.quit();
 	}
 

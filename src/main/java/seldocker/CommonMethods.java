@@ -21,6 +21,7 @@ public class CommonMethods {
 			String line;
 			while (true) {
 				line = r.readLine();
+				if (line == null) { break; }
 				if (line.contains(logText)) { 
 					Thread.sleep(5000);
 					System.out.println(line);
